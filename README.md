@@ -40,17 +40,28 @@ The social media analytics dashboard provides a comprehensive overview of user a
 - Tailwind CSS
 - React Icons
 - Axios
+  
+### Prerequisites
+Java 8 or higher
+Node.js and npm
 
 ## Setup Instructions
 
 ### Backend
 1. **Clone the backend branch:**
+
    ->git clone -b backend https://github.com/Yashaswini0001/Social-media-analytics
-   ->Configure the h2 database fromt the intelij
-   ->Run the spring boot application
+   ->Open the project in IntelliJ IDEA or your preferred IDE.
+   ->Configure the H2 database settings in application.properties.
+   ->Run the spring boot application or give command:  mvn spring-boot:run
+
+
 2.**Clone the frontend branch:**
    -> git clone -b frontend https://github.com/Yashaswini0001/Social-media-analytics
    -> npm install
    ->npm run dev
+   
+## Open your browser and navigate to http://localhost:5173 to access the frontend.
+
     
    
